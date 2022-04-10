@@ -5,13 +5,17 @@
             <input type="text" id="txtUser" /><br />
             <span>Enter Your message : </span><br />
             <textarea rows="10" cols="50" id="txtMessage"></textarea> <br />
+            <span>Choose an Image</span><br />
+            <input accept="image/*" type='file' id="imgInp" onchange="showPreview(event);" /><br />
             <button type="submit" id="btnSend" class="btn btn-info">Send Message</button>
         </div>
 
         <div class="col-md-6">
             <h3>Message List:</h3>
             <ul id="list" class="alert alert-info">
-
+                <li>
+                    <img style="width:64px;" class="img-thumbnail" id="file-ip-1-preview">
+                </li>
             </ul>
         </div>
     </div>

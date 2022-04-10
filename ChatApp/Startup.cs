@@ -48,7 +48,7 @@ namespace ChatApp
 
             app.UseAuthorization();
 
-            //old code
+            //depricated code
             //app.UseSignalR(routes =>
             //{
             //  routes.MapHub<ChatHub>("/chatHub");
